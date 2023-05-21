@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+:root{
+    --azul:#3498DB;
+    --azul-claro:#168aad;
+    --amarelo:#ffff00;
+    --verde:#2ECC71; 
+    --azul-escuro: #14213d;
+    --verde-escuro:#6f7c12;
+    --cinza:#9099aa;
+    --cinza-hover:#bac3d4;
+    --preto:#000000;
+}
+
+body{
+    background-color: var(--azul-escuro);
+}
+
+
+header{
+    padding: 0% 15% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo__imagem{
+    padding: 0% 0% 10% 0%;
+    width: 85%;
+}
+
+.logo-menu{
+    margin: 3% 0% 0% 0%;
+    padding: 0% 8% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 4em;
+}
+
+.logo-name{
+    padding: 0% 0% 0% 18%;
+    font-size: 2rem;
+ }
+
+ .azul{
+    color: var(--azul);
+ }
+
+ .amarelo{
+    color: var(--amarelo)
+ }
+
+ .verde{
+    color: var(--verde);
+ }
+
+.main-menu{
+    color: var(--cinza);
+    font-size: 1.5rem;
+    display: flex;
+    gap: 4em;
+    
+}
+
+.main-menu_nav:hover{
+    color:var(--cinza-hover) ;
+    cursor: pointer;;
+}
+
+main{
+    background-color: var(--azul-escuro);
+    box-sizing: border-box;
+    --height: 80%;
+}
+
+.boas-vindas{
+   
+    display: flex;
+
+    
+}
+
+.boas-vindas__texto{
+    padding: 3% 10% 0% 1%;
+    color: var(--verde-escuro);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.boas-vindas__texto__apenas{
+    padding: 3% 10% 0% 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titulo{
+    font-size: 2rem;
+}
+
+.subtitulo{
+    padding: 10% 0% 0% 0%;
+    font-size: 1.8rem;
+}
+
+.texto{
+
+    font-size: 1.5rem;
+}
+
+.destaque{
+    color: var(--amarelo);
+}
+
+.imagens__pacman{
+    padding: 20% 0% 0% 0%;
+    width: 100%;
+    
+}
+
+.imagens{
+    display: flex;
+}
+
+.imagens__jogos{
+    width: 50%;
+}
+
+.imagens__placa{
+    width: 50%;
+}
+
+.display_titulo{
+    font-size: 2.5rem;
+    padding: 3% 0% 2% 1%;
+    color: var(--verde-escuro);
+}
+
+.games{
+
+    border: solid 14px var(--verde-escuro);
+    max-width: 100%;
+    
+    height: 450px;
+    border-radius: 2%;
+    padding: 5% 10% 5% 10%;
+    background-color: var(--azul-claro);
+    margin: 0% 1% 2% 1%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    box-sizing: border-box;
+}
+
+.games__displaygame{
+    background-color: #081c15;
+    width: 200px;
+   
+    height: 100%;
+    border: solid 25px #03045e;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+
+.games__displaygame:hover{
+   transform: scale(1.1); 
+   cursor: pointer;
+}
+
+.games__displaygame__capa_zelda{
+    width: 100%;
+    height: 86%;
+    box-sizing: border-box;
+}
+
+
+.games__displaygame__capa_star-wars,.games__displaygame__capa_redfall{
+    width: 100%;
+    height: 89%;
+    box-sizing: border-box;
+}
+
+.games__displaygame__capa_RE4{
+    width: 100%;
+    height: 86%;
+    box-sizing: border-box;
+}
+
+.games__displaygame__capa_ER{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.games__displaygame__capa_DSDC{
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+.games__displaygame__capa_stellaris{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.games__displaygame__capa_skyrim{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.games__displaygame__id{
+    width: 100%;
+    max-height: 14%;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;    
+}
+
+.games__displaygame__id__name{
+    border:solid 2px #9ef01a;
+    border-radius: 5%;
+    margin: 0% 0% 0% 0%;
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+    color: #d0f4de;
+    box-sizing: border-box;
+
+}
+
+.games__displaygame__id__name:hover{
+    --height: 4rem;
+    overflow: visible;
+}
+
+.games__displaygame__id__price{
+    border: solid 1px var(--amarelo);
+    width: 100%;
+    height: 50%;
+    font-size: 1rem;
+    color: #ffff00;
+    box-sizing: border-box;
+}
+
+.games__displaygame__id__genero{
+    width:100%;
+    height: 50%;
+    --padding: 1% 10% 0% 0%;
+    --border: solid #2ECC71;
+    font-size: 1rem;
+    --height: 1.5rem;
+    display: flex;
+    box-sizing: border-box;
+   
+    
+}
+.acao{
+    width: 110%;
+    height: 100%;
+    border: solid 2px red;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+} 
+
+.FPS{
+    width: 100%;
+    height: 100%;
+    border: solid 2px var(--amarelo);
+    background-color: var(--amarelo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.terror{
+    width: 100%;
+    height: 100%;
+    border: solid 2px #660532;
+    background-color: #660532;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.RPG{
+    width: 100%;
+    height: 100%;
+    border: solid 2px #068517;
+    background-color: #068517;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.AV{
+    width: 100%;
+    height: 100%;
+    border: solid 2px #0571af;
+    background-color: #0571af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Estrat{
+    width: 100%;
+    height: 100%;
+    border: solid 2px #5400a3;
+    background-color: #5400a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: var(--preto);
+    display: flex;
+    align-items: flex-end;
+    padding: 3% 0% 0% 0%;
+    color: var(--cinza);
+    
+}
+
+.logo-rodape{
+    width: 10%;
+    height: 5%;
+
+
+}
+
+.rodape{
+    width: 75%;
+    font-size: 1.3rem
+}
+
+.rodape-nav{
+   --width: 10%;
+    font-size: 1.3rem;
+    color: var(--cinza);
+}
