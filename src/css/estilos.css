@@ -333,28 +333,108 @@ main{
 }
 
 footer{
+
     background-color: var(--preto);
     display: flex;
     align-items: flex-end;
-    padding: 3% 0% 0% 0%;
+    padding: 1.5% 0% 0% 0%;
     color: var(--cinza);
-    
+    gap: 1em;
 }
 
 .logo-rodape{
-    width: 10%;
-    height: 5%;
+    width: 7%;
+    height: 2%;
 
 
 }
 
 .rodape{
-    width: 75%;
-    font-size: 1.3rem
+    width: 95%;
+    font-size: 1.6rem
 }
 
 .rodape-nav{
    --width: 10%;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: var(--cinza);
 }
+
+@media (max-width: 1100px) {
+ 
+    .logo-menu{
+        gap: 2em;
+    }
+     .main-menu{
+        font-size: 1.5rem;
+        gap: 2.5em;
+        
+    }
+    .games{
+        padding: 5% 3% 5% 3%;
+    } 
+    footer{
+        background-color: var(--preto);
+        display: flex;
+        align-items: flex-end;
+        padding: 1.5% 0% 0% 0%;
+        color: var(--cinza);
+        gap: 1em;
+    }
+    .logo-rodape{
+        width: 10%;
+        
+    }
+    
+    .rodape{
+        width: 95%;
+        font-size: 1.125rem
+    }
+}
+
+@media (max-width: 500px) {
+ 
+    .logo-menu{
+        gap: 1em;
+    }
+     .main-menu{
+        font-size: 1rem;
+        gap: 0.5em;
+        
+    }
+    .logo-name{
+        padding: 0% 0% 0% 18%;
+        font-size: 1rem;
+     }
+    
+    .games{
+        padding: 10% 5% 15% 5%;
+        max-width: 100%;
+        height: 650px;
+        flex-wrap: wrap;
+    } 
+    .games__displaygame{
+        background-color: #081c15;
+        width: 150px;
+        height: 50%;
+        border: solid 15px #03045e;
+    }
+    footer{
+        background-color: var(--preto);
+        display: flex;
+        align-items: flex-end;
+        padding: 1.5% 0% 0% 0%;
+        color: var(--cinza);
+        gap: 1em;
+    }
+    .logo-rodape{
+        width: 10%;
+        
+    }
+    
+    .rodape{
+        width: 95%;
+        font-size: 1.125rem
+    }
+}
+
