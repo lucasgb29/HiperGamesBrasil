@@ -1,35 +1,3 @@
-# Bem-vindo ao Meu Site!
-
-Este é um site fictício de uma loja de jogos e produtos relacionados. Por enquanto, apenas a página inicial foi desenvolvida e recentemente tornei-a responsiva, embora ainda haja espaço para alguns pequenos ajustes.
-
-## Tecnologias Utilizadas
-
-- HTML5
-- CSS3
-
-## Estrutura do Projeto
-
-- `index.html`: Página inicial do site.
-- `css/`: Pasta contendo os arquivos CSS.
-
-## Como Executar
-
-1. Clone este repositório em sua máquina local.
-2. Navegue até a pasta do projeto.
-3. Abra o arquivo `index.html` em seu navegador de preferência.
-
-## Sobre Mim
-
-Sou um iniciante em programação do Brasil, com o objetivo de me tornar um desenvolvedor full-stack e entrar no mercado de trabalho em breve.
-
-## Contribuição
-
-Se você deseja contribuir para este projeto, fique à vontade para enviar pull requests. Ficarei feliz em receber sugestões, correções de bugs e melhorias.
-
-## Contato
-
-- **Nome**: Lucas Gomes Bernardino
-- **Email**: lucasgb290902@gmail.com
 - # Welcome to My Site!
 
 This is a fictional website for a game store and related products. Currently, only the homepage has been developed, and it has recently been made responsive, although there is still room for some minor adjustments.
@@ -62,3 +30,36 @@ If you would like to contribute to this project, feel free to send pull requests
 
 - **Name**: Lucas Gomes Bernardino
 - **Email**: lucasgb290902@gmail.com
+# Bem-vindo ao Meu Site!
+
+Este é um site fictício de uma loja de jogos e produtos relacionados. Por enquanto, apenas a página inicial foi desenvolvida e recentemente tornei-a responsiva, embora ainda haja espaço para alguns pequenos ajustes.
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+
+## Estrutura do Projeto
+
+- `index.html`: Página inicial do site.
+- `css/`: Pasta contendo os arquivos CSS.
+
+## Como Executar
+
+1. Clone este repositório em sua máquina local.
+2. Navegue até a pasta do projeto.
+3. Abra o arquivo `index.html` em seu navegador de preferência.
+
+## Sobre Mim
+
+Sou um iniciante em programação do Brasil, com o objetivo de me tornar um desenvolvedor full-stack e entrar no mercado de trabalho em breve.
+
+## Contribuição
+
+Se você deseja contribuir para este projeto, fique à vontade para enviar pull requests. Ficarei feliz em receber sugestões, correções de bugs e melhorias.
+
+## Contato
+
+- **Nome**: Lucas Gomes Bernardino
+- **Email**: lucasgb290902@gmail.com
+
