@@ -18,13 +18,15 @@ body{
 
 
 header{
-    padding: 0% 15% 0% 0%;
+    padding: 0% 18% 0% 0%;
     margin: 0% 0% 0% 0%;
     background-color: var(--preto);
     display: flex;
     flex-direction: row;
-    
+    max-width: 100%;
 }
+    
+
 
 .logo__imagem{
     padding: 0% 0% 10% 0%;
@@ -75,6 +77,7 @@ main{
     background-color: var(--azul-escuro);
     box-sizing: border-box;
     --height: 80%;
+    max-width: 100%;
 }
 
 .boas-vindas{
@@ -96,7 +99,7 @@ main{
     padding: 3% 10% 0% 1%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2em;
 }
 
 .titulo{
@@ -143,10 +146,10 @@ main{
 
 .games{
 
-    border: solid 14px var(--verde-escuro);
+    border: solid 1rem var(--verde-escuro);
     max-width: 100%;
     
-    height: 450px;
+    height: 30em;
     border-radius: 2%;
     padding: 5% 10% 5% 10%;
     background-color: var(--azul-claro);
@@ -159,10 +162,10 @@ main{
 
 .games__displaygame{
     background-color: #081c15;
-    width: 200px;
+    width: 12.5em;
    
     height: 100%;
-    border: solid 25px #03045e;
+    border: solid 1.5rem #03045e;
     border-radius: 5%;
     display: flex;
     flex-direction: column;
@@ -230,7 +233,7 @@ main{
 }
 
 .games__displaygame__id__name{
-    border:solid 2px #9ef01a;
+    border:solid 0.125rem #9ef01a;
     border-radius: 5%;
     margin: 0% 0% 0% 0%;
     width:100%;
@@ -247,7 +250,7 @@ main{
 }
 
 .games__displaygame__id__price{
-    border: solid 1px var(--amarelo);
+    border: solid 0.0625em var(--amarelo);
     width: 100%;
     height: 50%;
     font-size: 1rem;
@@ -270,7 +273,7 @@ main{
 .acao{
     width: 110%;
     height: 100%;
-    border: solid 2px red;
+    border: solid 0.125rem red;
     background-color: red;
     display: flex;
     align-items: center;
@@ -280,7 +283,7 @@ main{
 .FPS{
     width: 100%;
     height: 100%;
-    border: solid 2px var(--amarelo);
+    border: solid 0.125rem var(--amarelo);
     background-color: var(--amarelo);
     display: flex;
     justify-content: center;
@@ -291,7 +294,7 @@ main{
 .terror{
     width: 100%;
     height: 100%;
-    border: solid 2px #660532;
+    border: solid 0.125rem #660532;
     background-color: #660532;
     display: flex;
     justify-content: center;
@@ -302,7 +305,7 @@ main{
 .RPG{
     width: 100%;
     height: 100%;
-    border: solid 2px #068517;
+    border: solid 0.125rem #068517;
     background-color: #068517;
     display: flex;
     justify-content: center;
@@ -313,7 +316,7 @@ main{
 .AV{
     width: 100%;
     height: 100%;
-    border: solid 2px #0571af;
+    border: solid 0.125rem #0571af;
     background-color: #0571af;
     display: flex;
     justify-content: center;
@@ -324,7 +327,7 @@ main{
 .Estrat{
     width: 100%;
     height: 100%;
-    border: solid 2px #5400a3;
+    border: solid 0.125rem #5400a3;
     background-color: #5400a3;
     display: flex;
     justify-content: center;
@@ -333,7 +336,7 @@ main{
 }
 
 footer{
-
+    max-width: 100%;
     background-color: var(--preto);
     display: flex;
     align-items: flex-end;
@@ -351,7 +354,7 @@ footer{
 
 .rodape{
     width: 95%;
-    font-size: 1.6rem
+    font-size: 1.2rem
 }
 
 .rodape-nav{
@@ -393,31 +396,120 @@ footer{
 }
 
 @media (max-width: 500px) {
- 
+    body{
+        max-width: 25.6em;
+    }
+    
+    .logo__imagem{
+
+        width: 75%;
+    }
+   
     .logo-menu{
         gap: 1em;
+        
+       
     }
      .main-menu{
-        font-size: 1rem;
-        gap: 0.5em;
+        font-size: 0.55rem;
+        gap: 3.5em;
         
     }
     .logo-name{
-        padding: 0% 0% 0% 18%;
+      
         font-size: 1rem;
-     }
+     }    
+
+     .boas-vindas{
+        
+        display: flex;
+        
+        
+    }
+    
+    .boas-vindas__texto{
+        padding: 3% 10% 0% 1%;
+        color: var(--verde-escuro);
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .boas-vindas__texto__apenas{
+        padding: 3% 10% 0% 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.25em;
+    }
+    
+    .titulo{
+        font-size: 1rem;
+        width: 200%;
+    }
+    
+    .subtitulo{
+        padding: 10% 0% 0% 0%;
+        font-size: 1rem;
+        width: 200%;
+    }
+    
+    .texto{
+        width: 200%;
+        font-size: 0.8rem;
+    }
+    
+    .destaque{
+        color: var(--amarelo);
+    }
+    
+    .imagens__pacman{
+        padding: 20% 0% 0% 0%;
+        width: 150%;
+        
+    }
+    
+    .imagens{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .imagens__jogos{
+        width: 40%;
+        height: 100%;
+    }
+    
+    .imagens__placa{
+        width: 40%;
+        height: 100%;
+    }
     
     .games{
-        padding: 10% 5% 15% 5%;
+        padding: 10% 5% 10% 5%;
         max-width: 100%;
-        height: 650px;
+        height: 30em;
         flex-wrap: wrap;
     } 
     .games__displaygame{
         background-color: #081c15;
-        width: 150px;
+        width: 8rem;
         height: 50%;
-        border: solid 15px #03045e;
+        border: solid 1em #03045e;
+    }
+    .games__displaygame__id__name{
+        font-size: 0.6rem;
+    }
+    .games__displaygame__id__price{
+
+        font-size: 0.6rem;
+    }
+    .games__displaygame__id__genero{
+        
+        font-size: 0.44rem;
+    }
+    .display_titulo{
+        font-size: 1rem;
+        padding: 3% 0% 2% 1%;
+        color: var(--verde-escuro);
     }
     footer{
         background-color: var(--preto);
@@ -426,6 +518,7 @@ footer{
         padding: 1.5% 0% 0% 0%;
         color: var(--cinza);
         gap: 1em;
+        width: 25.6em; 
     }
     .logo-rodape{
         width: 10%;
@@ -433,8 +526,13 @@ footer{
     }
     
     .rodape{
-        width: 95%;
-        font-size: 1.125rem
+        max-height: 1%;
+        font-size: 0.525rem
     }
+    .rodape-nav{
+        --width: 10%;
+         font-size: 1rem;
+         color: var(--cinza);
+     }
 }
 
