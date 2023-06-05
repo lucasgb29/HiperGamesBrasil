@@ -1,4 +1,4 @@
-- # Welcome to My Site!
+# Welcome to My Site!
 
 This is a fictional website for a game store and related products. Currently, only the homepage has been developed, and it has recently been made responsive, although there is still room for some minor adjustments.
 
